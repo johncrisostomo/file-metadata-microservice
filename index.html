@@ -4,8 +4,12 @@
   <title>File Metadata Microservice</title>
 </head>
 <body>
-<footer>
-  <p>created by <a href="https://www.linkedin.com/in/johncrisostomo">john crisostomo</a></p>
-</footer>
+  <form action="/api/read-metadata" method="post" enctype="multipart/form-data">
+    <input type="file" name="sample-file">
+    <input type="submit" value="Upload">
+  </form>
+  <footer>
+    <p>created by <a href="https://www.linkedin.com/in/johncrisostomo">john crisostomo</a></p>
+  </footer>
 </body>
 </html> 
