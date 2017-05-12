@@ -4,7 +4,7 @@
   "description": "A file upload microservice that returns the file size. Done as part of FCC's backend track",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
